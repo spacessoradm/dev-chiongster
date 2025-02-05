@@ -22,9 +22,21 @@ const adminNavBarItems = [
         link: "/admin/appusers",
         icon: <FaUser />,
     },
+
+    {
+        title: "Manage Managers",
+        link: "/admin/managers",
+        icon: <FaUser />,
+    },
+
     {
         title: "Manage Bookings",
         link: "/admin/bookings",
+        icon: <FaUser />,
+    },
+    {
+        title: "Manage Alcohol Balance",
+        link: "/admin/alcoholbalance",
         icon: <FaUser />,
     },
     {
@@ -38,6 +50,11 @@ const adminNavBarItems = [
         icon: <FaUser />,
     },
     {
+        title: "Manage Blogs",
+        link: "/admin/blogs",
+        icon: <FaUser />,
+    },
+    {
         title: "Settings",
         icon: <FaCog />,
         dropdown: true, // Indicates dropdown
@@ -45,6 +62,16 @@ const adminNavBarItems = [
             {
                 title: "Manage Banner",
                 link: "/admin/banners",
+                icon: <FaListAlt />,
+            },
+            {
+                title: "Manage Blog Tags",
+                link: "/admin/blogtags",
+                icon: <FaListAlt />,
+            },
+            {
+                title: "Manage Notis",
+                link: "/admin/notis",
                 icon: <FaListAlt />,
             },
             {
